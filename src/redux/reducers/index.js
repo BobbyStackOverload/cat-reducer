@@ -1,5 +1,3 @@
 import { combineReducers } from 'redux';
-import activityReducer from './activity';
-import nameReducer from './name';
-
-export default combineReducers({ activity: activityReducer, name: nameReducer });
+import catReducer from './catReducer'
+export default combineReducers({ cats: catReducer });
